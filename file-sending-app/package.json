@@ -1,0 +1,24 @@
+{
+  "name": "file-sending-app",
+  "version": "1.0.0",
+  "description": "File sharing app",
+  "main": "service.js",
+  "scripts": {
+    "start": "nodemon service.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Amanulla Iqbal Mulla",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mangodb": "^1.0.0",
+    "mongoose": "^8.4.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.13",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.2"
+  }
+}
